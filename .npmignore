@@ -2,3 +2,5 @@ src
 webpack.config.js
 .babelrc
 yarn.lock
+/node_modules
+/.vscode

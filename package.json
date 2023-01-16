@@ -1,5 +1,5 @@
 {
-  "name": "ditto-react",
+  "name": "react-dev-ditto",
   "version": "1.1.2",
   "description": "React SDK for using product copy from Ditto in development.",
   "author": "Ditto Tech Inc.",
@@ -22,6 +22,7 @@
   "scripts": {
     "build": "microbundle --no-compress --format modern,cjs",
     "start": "microbundle watch --no-compress --format modern,cjs",
+    "prepare": "run-s build",
     "test": "run-s test:unit test:lint test:build",
     "test:build": "run-s build",
     "test:lint": "eslint .",
